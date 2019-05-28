@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Parallax</title>
+	<link rel="stylesheet" href="css/css.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="header">
+		<nav>
+			<ul>
+				<li><a href="#section1">Section 1</a></li>
+				<li><a href="#section2">Section 2</a></li>
+				<li><a href="#section3">Section 3</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div id="main">
+		<section id="section1">
+			<div id="article1">
+				<div class="content">
+					<ul>
+					<aside id="one">
+						<h2>Heading One</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque at quisquam quis, ullam iusto minus dolores vero ipsa ducimus sint facilis omnis magnam. Reprehenderit asperiores commodi molestiae, architecto temporibus!20</p>
+					</aside>
+					<aside id="two">
+						<h2>Heading Two</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis aspernatur dolorem deleniti a velit quasi iste inventore, harum, architecto incidunt excepturi rem nobis minima. Accusantium et fuga in numquam velit!20</p>
+					</aside>
+					<aside id="three">
+						<h2>Heading Three</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id doloremque consequatur modi reiciendis explicabo. Voluptate facilis dicta quis ratione in nemo labore impedit minima ut porro. Provident, mollitia numquam earum.20</p>
+					</aside>
+					</ul>
+					<!-- <h1>Article 1</h1>
+					<p>
+						<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, minima doloribus hic debitis a eum neque ad alias nemo. In cum dolorem aspernatur animi. Iusto rem deleniti odio exercitationem libero.</span>
+						<span>Quae tempora qui quibusdam necessitatibus, perspiciatis corporis nostrum pariatur. Cupiditate aliquid maxime facere nulla reprehenderit, inventore quam dolorum aut, consequuntur dolorem asperiores qui nobis, vero, et corporis nam at est.</span>
+						<span>Consectetur in magnam obcaecati, distinctio. Inventore perspiciatis, similique reprehenderit assumenda eum nesciunt voluptatum quae, vel a pariatur repellendus animi ab nemo totam deserunt impedit dolore enim repudiandae exercitationem explicabo labore.</span>
+					</p> -->
+				</div>
+			</div>
+		</section>
+		<section id="section2">
+			<div id="article2">
+				<div class="content">
+					<h1>Article 2</h1>
+					<p>
+						<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, minima doloribus hic debitis a eum neque ad alias nemo. In cum dolorem aspernatur animi. Iusto rem deleniti odio exercitationem libero.</span>
+						<span>Quae tempora qui quibusdam necessitatibus, perspiciatis corporis nostrum pariatur. Cupiditate aliquid maxime facere nulla reprehenderit, inventore quam dolorum aut, consequuntur dolorem asperiores qui nobis, vero, et corporis nam at est.</span>
+						<span>Consectetur in magnam obcaecati, distinctio. Inventore perspiciatis, similique reprehenderit assumenda eum nesciunt voluptatum quae, vel a pariatur repellendus animi ab nemo totam deserunt impedit dolore enim repudiandae exercitationem explicabo labore.</span>
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="section3">
+			<div id="article3">
+				<div class="content">
+					<h1>Article 3</h1>
+					<p>
+						<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, minima doloribus hic debitis a eum neque ad alias nemo. In cum dolorem aspernatur animi. Iusto rem deleniti odio exercitationem libero.</span>
+						<span>Quae tempora qui quibusdam necessitatibus, perspiciatis corporis nostrum pariatur. Cupiditate aliquid maxime facere nulla reprehenderit, inventore quam dolorum aut, consequuntur dolorem asperiores qui nobis, vero, et corporis nam at est.</span>
+						<span>Consectetur in magnam obcaecati, distinctio. Inventore perspiciatis, similique reprehenderit assumenda eum nesciunt voluptatum quae, vel a pariatur repellendus animi ab nemo totam deserunt impedit dolore enim repudiandae exercitationem explicabo labore.</span>
+					</p>
+				</div>
+			</div>
+		</section>
+	</div>
+<!-- 	<script>
+		window.addEventListener("DOMContentLoaded", scrollLoop, false);
+
+		  var article1 = document.querySelector("#article1");
+		  var article2 = document.querySelector("#article2");
+		  var article3 = document.querySelector("#article3");
+
+		  function setTranslate(xPos, yPos, el) {
+		      el.style.transform = "translate3d(" + xPos + "px, " + yPos + "px, 0";
+		  }
+
+		  var xScrollPosition;
+		  var yScrollPosition;
+
+		  function scrollLoop(e) {
+		      xScrollPosition = window.scrollX;
+		      yScrollPosition = window.scrollY;
+
+		      setTranslate(0, yScrollPosition * -0.2, article1);
+		      setTranslate(0, yScrollPosition * -0.5, article2);
+		      setTranslate(0, yScrollPosition * -0.6, article3);
+
+		      requestAnimationFrame(scrollLoop);
+		  }
+		</script> -->
+	<script src="js/js.js"></script>
+</body>
+</html>
